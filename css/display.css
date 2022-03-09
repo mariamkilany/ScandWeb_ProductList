@@ -1,0 +1,64 @@
+html,body{
+    box-sizing: border-box;
+    height: 100%;
+    margin: 0;
+    font-family: 'Balsamiq Sans', cursive;
+    overflow: auto;
+}
+body{
+    padding: 30px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.buttons{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.buttons .button{
+    margin-left: 30px;
+    background-color: white;
+    box-shadow: 2px 2px black;
+}
+.line{
+    border-top: 2px solid black;
+}
+.button a{
+    text-decoration: none;
+    color: black;
+}
+.products{
+    display: grid;
+    grid-template-columns: 22% 22% 22% 22%;
+    gap: 4%;
+    height: 100%;
+    grid-template-rows: 30% 30% 30%;
+    margin: 20px;
+}
+.inproduct{
+    border: 2.5px solid black;
+    border-radius: 5px;
+    padding: 15px;
+}
+.text{
+    padding: 35px;
+    padding-top: 0;
+    text-align: center;
+}
+::selection{
+    background-color: black;
+    color: white;
+}
+input:checked{
+    background-color: black;
+}
+footer .footerspan{
+    display: flex;
+    justify-content: center;
+}
+.sub{
+    height: 100%;
+}
