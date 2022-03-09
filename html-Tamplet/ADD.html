@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="add.css">
+    <link rel="stylesheet" href="display.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <header>
+        <div class="pageTitle">
+            <h1>Product Add</h1>
+        </div>
+        <div class="buttons">
+            <button><a href="">Save</a></button>
+            <button><a href="">Cancel</a></button>
+        </div>
+    </header>
+    <div class="line"></div>
+    <div class="container">
+        <form action="">
+        <div>
+            <label for="SKU">SKU</label>
+            <input type="text" name="SKU" id="SKU">
+        </div>
+        <div>
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name">
+        </div>
+        <div>
+            <label for="price">Price ($)</label>
+            <input type="text" name="price" id="price">
+        </div>
+        <div>
+            <label for="producttype">Type Switcher</label>
+            <select id="producttype" name="producttype" >
+                <option value="" disabled selected>Type Switcher</option>
+                <option value="DVD">DVD</option>
+                <option value="Book">Book</option>
+                <option value="Furniture">Furniture</option>
+            </select>
+        </div>
+            <div class="option">
+                <label for="size"> Size (MB)</label>
+                <input type="text" id="size">
+                <span class="description" >"Product description"</span>
+            </div>
+            <div class="option">
+                <label for=" height">Height (CM)</label>
+                <input type="text" id="height">
+                <label for=" width">Width (CM)</label>
+                <input type="text" id="height">
+                <label for="length">Length (CM)</label>
+                <input type="text" id="length">
+                <span class="description">"Product description"</span>
+            </div>
+            <div class="option">
+                <label for="weight">Weight (KG)</label>
+                <input type="text" id="weight">
+                <span class="description">"Product description"</span>
+            </div>
+        </form>
+    </div>
+    <footer>
+    <div class="line"></div>
+    <span class="footerspan">Scandiweb Test assignment</span>
+    </footer>
+</body>
+</html>
