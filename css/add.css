@@ -1,0 +1,39 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 40px;
+  height: 100%;
+}
+form {
+  width: 100%;
+}
+.container div {
+  margin-bottom: 3%;
+  display: grid;
+  width: 100%;
+  grid-template-columns: 15% 30%;
+}
+.description {
+  grid-column: 2;
+  margin-top: 3%;
+  font-size: 12px;
+}
+.option {
+  row-gap: 8%;
+  display: none !important;
+}
+.rq{
+  display: grid !important;
+}
+.msg{
+    grid-column: 2;
+    grid-template-columns: none !important;
+    color: red;
+    font-size: 10px;
+    margin-top: 5px;
+    display: block;
+}
+.two{
+  display: none;
+}
